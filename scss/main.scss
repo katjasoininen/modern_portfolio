@@ -11,17 +11,18 @@ body {
     color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
 // Headings
 h1, h2, h3 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 200;
 
     &.lg-heading {
         font-size: 6rem;
+        // letter-spacing: 4px;
     }
 
     &.sm-heading {
@@ -49,7 +50,7 @@ header {
 main {
     padding: 4rem;
     // height: 100%;
-    min-height: calc(100vh-60px);
+    min-height: calc(100vh - 60px);
 
     .icons {
         margin-top: 1rem;
@@ -109,15 +110,17 @@ main {
     }
 }
 
+
+
 // Work/Projects
-.project {
+.projects {
     display: grid;
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
 
     img {
         width: 100%;
-        border: 3px #fff;
+        border: 3px #fff outset;
 
         &:hover {
             opacity: 0.5;
@@ -125,7 +128,33 @@ main {
             @include easeOut;
         }
     }
+}
 
+// Contact Page
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div {
+        font-size: 2rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+            span {
+                color: set-text-color($secondary-color);
+            }      
+        }
+    }
 }
 
 // Button Styles
@@ -153,9 +182,10 @@ main {
 }
 
 #main-footer {
-    text-align:  center;
+    text-align: center;
     padding: 1rem;
     background: darken($primary-color, 10);
+    color: set-text-color($primary-color);
     height: 60px;
 }
 

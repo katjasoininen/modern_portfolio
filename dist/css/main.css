@@ -98,7 +98,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../image/background2.jpg);
@@ -116,7 +116,7 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 200; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
@@ -138,7 +138,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh-60px); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -175,17 +175,36 @@ main {
     padding: 0.5rem;
     border-bottom: #1ae0ee 5px solid; }
 
-.project {
+.projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
-  .project img {
+  .projects img {
     width: 100%;
-    border: 3px #fff; }
-    .project img:hover {
+    border: 3px #fff outset; }
+    .projects img:hover {
       opacity: 0.5;
       border-color: #1ae0ee;
       transition: all 0.9s ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.9s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #1ae0ee;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -208,9 +227,10 @@ main {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
+  color: #fff;
   height: 60px; }
 
-@media screen and (min-width: 71171) {
+@media screen and (min-width: 1171) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
