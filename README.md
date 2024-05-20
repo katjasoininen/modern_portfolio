@@ -15,6 +15,9 @@ Projektiin sisältyvät seuraavat tiedostot ja kansiot:
 
 ## Oppimispäiväkirja ja sivuston esittely
 
-Voit ladata oppimispäiväkirjan, joka on word dokumenttina ja katsoa Youtube-kanavaltani esittelyvideon:
-[Lataa word dokumentti]()
+Voit ladata oppimispäiväkirjan, joka on word dokumenttina ja katsoa Youtube-kanavaltani esittelyvideon.
+## Lataa Word-dokumentti
+[Lataa oppimispäiväkirja/word](https://github.com/katjasoininen/modern_portfolio/blob/main/Oppimisp%C3%A4iv%C3%A4kirja_Katja%20Soininen.docx)
+
+## Katso video
 [Katso video Youtubessa](https://youtu.be/tQzl4uicrWs) 
