@@ -12,3 +12,9 @@ Projektiin sisältyvät seuraavat tiedostot ja kansiot:
 - `scss` kansio, sisältää `main.scss` -tiedoston sekä alitiedostot (_mobile, _menu, -config)
 - `imgage` kansio: sisältää kuvat, jotka näytetään sivustolla.
 - `package.json
+
+## Oppimispäiväkirja ja sivuston esittely
+
+Voit ladata oppimispäiväkirjan, joka on word dokumenttina ja katsoa Youtube-kanavaltani esittelyvideon:
+[Lataa word dokumentti]()
+[Katso video Youtubessa](https://youtu.be/tQzl4uicrWs) 
